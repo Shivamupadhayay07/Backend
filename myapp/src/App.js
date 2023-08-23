@@ -1,22 +1,21 @@
-import './components/imgCard';
+import React from 'react';
 import './App.css';
+import NavBar from './components/NavBar';
+import HomeCarousel from './components/HomeCarousel';
+
+
+
+
 
 function App() {
   return (
-    <div className='container'>
-    <h1>hello world </h1>
-    <div className='row'>
-    {data1.map((card, index)=>{
-      <imgCard
-      title = {card.title}
-      desc={card.desc}
-      ingurl={card.ingurl}
-      />
-    })}
+    <div>
+    <NavBar/> 
+    <HomeCarousel/>
+  
+
     </div>
-    
-    </div>
-   
+
   );
 }
 
