@@ -10,6 +10,7 @@ import data from './data';
 
 
 
+
 function App() {
   return (
     <div>
@@ -18,18 +19,14 @@ function App() {
     <div className='img1'>
     {
       data.map((obj)=>{
-             return <ImgCard title={obj.title} desc={obj.desc} imgurl={obj.imgurl}/>
+        
+        return <ImgCard title={obj.title} desc={obj.desc} imgurl={obj.imgurl}/>
+       
+             
       })
-    }    
-    
+    }      
     </div>
-
     
-
-    
-
-  
-
     </div>
 
   );

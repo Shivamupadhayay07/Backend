@@ -43,8 +43,9 @@
   flex-wrap: wrap;
   margin: 20px;
   justify-content: center;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  
-  
+   
 }
+
+
