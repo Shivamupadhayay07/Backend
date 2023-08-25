@@ -20,9 +20,10 @@ function App() {
     {
       data.map((obj)=>{
         
-        return <ImgCard title={obj.title} desc={obj.desc} imgurl={obj.imgurl}/>
-       
-             
+        return(
+        <div key={obj.id}>
+         <ImgCard title={obj.title} desc={obj.desc} imgurl={obj.imgurl}/>
+        </div> )      
       })
     }      
     </div>
